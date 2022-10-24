@@ -1,0 +1,69 @@
+using System.Drawing;
+using System.Globalization;
+/*int n=int.Parse(Console.ReadLine());
+    for(int j=0;j<n;j++)
+    {
+        Console.Write("*-|");
+    }
+*/
+/*int n = int.Parse(Console.ReadLine());
+for(int i = 1; i <= n; i++)
+{
+    for(int j = 0; j < i; j++)
+    {
+        Console.Write("*");
+    }
+    if (i % 2 == 0)
+    {
+        Console.Write("||");
+    }
+    else
+    {
+        Console.Write("--");
+    }
+}*/
+
+/*int n = int.Parse(Console.ReadLine());
+for(int i = 1; i <= n; i++)
+{
+    Console.Write("*");
+    for(int j = 0; j < i; j++)
+    {
+        if (i%2==1)
+        {
+            Console.Write("|");
+        }
+        else
+        {
+            Console.Write("-");
+        }
+    }
+    
+}*/
+/*Console.WriteLine("Podaj liczbe nie parzysta!!!!!!!!!");
+int n = int.Parse(Console.ReadLine());
+if (n % 2 != 0)
+{
+    for (int i = 1; i <= n; i++)
+    {
+        if (n / 2+1 == i)
+        {
+            Console.WriteLine("--*--");
+        }
+        else
+        {
+            Console.WriteLine("  *  ");
+        }
+    }
+}
+else
+{
+    Console.ForegroundColor = ConsoleColor.Red;
+    Console.WriteLine("jesteś debilem, miales podac liczbe nie parzysta, GRA TU LU JE !!!");
+    Console.ForegroundColor = ConsoleColor.Gray;
+}*/
+int n = int.Parse(Console.ReadLine());
+for(int i = 0; i < n; i++)
+{
+
+}
